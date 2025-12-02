@@ -43,16 +43,30 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Column(
-        children: [
-          priceTextField(),
-          amoutTextField(),
-          calculateButton(),
-          showTotalText(),
-          receiveMoneyTextField(),
-          changeCalculateButton(),
-          showChangeText(),
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            Text(
+              "change Calculation",
+              style: TextStyle(
+                fontFamily: "maaja",
+                fontSize: 36,
+                fontWeight: FontWeight.bold,
+                fontStyle: FontStyle.italic,
+                color: Colors.deepPurple,
+                background: Paint()..color = Color.fromARGB(255, 231, 93, 112),
+              ),
+            ),
+            priceTextField(),
+            amoutTextField(),
+            calculateButton(),
+            showTotalText(),
+            receiveMoneyTextField(),
+            changeCalculateButton(),
+            showChangeText(),
+          ],
+        ),
       ),
     );
   }
