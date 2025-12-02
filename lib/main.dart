@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 backgroundColor: Colors.pinkAccent,
               ),
             ),
-            Padding(padding: EdgeInsets.all(8.0)),
+            SizedBox(height: 10),
             Image.asset('images/sony-ps5-pro-001.jpg', width: 200, height: 150),
             priceTextField(),
             amoutTextField(),
