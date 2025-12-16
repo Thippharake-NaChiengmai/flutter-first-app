@@ -10,6 +10,12 @@ class ContractPage extends StatefulWidget {
 class _ContractPageState extends State<ContractPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return ListView(
+      children: [
+        Center(
+          child: Text("Contract Page"),
+        )
+      ],
+    );
   }
 }
