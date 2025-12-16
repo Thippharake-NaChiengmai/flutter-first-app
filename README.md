@@ -18,3 +18,7 @@ samples, guidance on mobile development, and a full API reference.
 ## Coder
 
 Thippharake Na Chiengmai Code:662115019
+
+## Activities
+<img width="503" height="841" alt="image" src="https://github.com/user-attachments/assets/db22d97e-f679-4029-ae6a-7147ee8970eb" />
+
