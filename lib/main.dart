@@ -47,8 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBar(currentIndex: _currentIndex,
             items: [
               BottomNavigationBarItem(icon: Icon(Icons.contact_mail),label: 'Contract'),
-              BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Home'),
-              BottomNavigationBarItem(icon: Icon(Icons.calculate),label: 'Calculate')
+              BottomNavigationBarItem(icon: Icon(Icons.calculate),label: 'Calculate'),
+              BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Home')
             ],
           onTap: (index){
             setState(() {
