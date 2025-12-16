@@ -13,11 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Thippharake Shop',
+      title: 'Calculate Change App.',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Thippharake Shop Home Page'),
+      home: const MyHomePage(title: 'Thippharake Shop'),
       debugShowCheckedModeBanner: false,
     );
   }
@@ -49,7 +49,13 @@ class _MyHomePageState extends State<MyHomePage> {
               BottomNavigationBarItem(icon: Icon(Icons.contact_mail),label: 'Contract'),
               BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Home'),
               BottomNavigationBarItem(icon: Icon(Icons.calculate),label: 'Calculate')
-            ],),
+            ],
+          onTap: (index){
+            setState(() {
+              _currentIndex = index;
+            });
+          },
+          ),
     );
   }
 }
