@@ -13,7 +13,14 @@ class _ContractPageState extends State<ContractPage> {
     return ListView(
       children: [
         Center(
-          child: Text("Contract Page"),
+          child: Column(
+            children: [
+              Text("Thippharake Na Ciengmai"),
+              Text("Code: 662115019"),
+              Text("Mobile App Development"),
+              Text("Room: LC-B205")
+            ]
+          ),
         )
       ],
     );
