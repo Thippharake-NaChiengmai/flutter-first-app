@@ -35,7 +35,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
   int _currentIndex = 0;
-  final tabs =[HomePage(),CalculatePage(),ContractPage()];
+  final tabs =[CalculatePage(),HomePage(),ContractPage()];
 
   @override
   Widget build(BuildContext context) {
@@ -46,9 +46,10 @@ class _MyHomePageState extends State<MyHomePage> {
           body: tabs[_currentIndex], bottomNavigationBar:
           BottomNavigationBar(currentIndex: _currentIndex,
             items: [
-              BottomNavigationBarItem(icon: Icon(Icons.contact_mail),label: 'Contract'),
               BottomNavigationBarItem(icon: Icon(Icons.calculate),label: 'Calculate'),
-              BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Home')
+              BottomNavigationBarItem(icon: Icon(Icons.home),label: 'Home'),
+              BottomNavigationBarItem(icon: Icon(Icons.contact_mail),label: 'Contract')
+
             ],
           onTap: (index){
             setState(() {
