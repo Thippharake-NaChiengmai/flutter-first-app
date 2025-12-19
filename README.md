@@ -18,3 +18,18 @@ samples, guidance on mobile development, and a full API reference.
 ## Coder
 
 Thippharake Na Chiengmai Code:662115019
+
+## Activities
+
+- Activity 3 Git + UI + APK
+
+🔗 [Link](https://drive.google.com/file/d/1gvVVpVpUl8EOvKfBOj2feZptm_UuCZD4/view?usp=drive_link)
+
+- Activity 4: flutter icon
+  
+![moblie-app-activity4](https://github.com/user-attachments/assets/cb9cf38c-f48b-4c33-afda-de44adb27b17)
+
+- Activity 5 FirstApp BottomNavigationBar
+  
+<img width="503" height="841" alt="image" src="https://github.com/user-attachments/assets/db22d97e-f679-4029-ae6a-7147ee8970eb" />
+
