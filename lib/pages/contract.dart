@@ -1,3 +1,4 @@
+import 'package:firstapp/pages/calculate.dart';
 import 'package:flutter/material.dart';
 
 class ContractPage extends StatefulWidget {
@@ -8,21 +9,23 @@ class ContractPage extends StatefulWidget {
 }
 
 class _ContractPageState extends State<ContractPage> {
+  final items = List<String>.generate(1000, (i) => "Item $i");
+  List myData = ["apple", "banana", "papaya"];
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: [
-        Center(
-          child: Column(
-            children: [
-              Text("Thippharake Na Ciengmai"),
-              Text("Code: 662115019"),
-              Text("Mobile App Development"),
-              Text("Room: LC-B205")
-            ]
-          ),
-        )
-      ],
+    return ListView.builder(
+      itemBuilder: (context, index) {
+        return ListTile(
+          onTap: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context)
+              =>const CalculatePage()),
+            );
+          },
+          leading: FlutterLogo(),
+          title: Text(myData[index]),
+        );
+      },
+      itemCount: myData.length,
     );
   }
 }
