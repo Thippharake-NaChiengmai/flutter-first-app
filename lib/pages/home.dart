@@ -1,3 +1,4 @@
+import 'package:firstapp/pages/details.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -19,7 +20,7 @@ class _HomePageState extends State<HomePage> {
         child: ListView(
           children: [
             myBox("What is a Computer?",
-                  "Computer is an electronic device that processes data and performs a wide range of tasks by following a set of instructions, typically referred to as programs or software. It can execute complex calculations, store and retrieve data, and perform tasks like word processing, gaming, web browsing, data analysis, and much more.",
+                  "Computer is an electronic device that processes data and performs a wide range of tasks by following a set of instructions, typically referred to as programs or software.",
                   "https://i.pinimg.com/736x/67/56/95/6756956ec2e5b6b569b23110696a4ee7.jpg"
             ),
             SizedBox(height: 20),
@@ -40,7 +41,7 @@ class _HomePageState extends State<HomePage> {
   Widget myBox(String title, String subTitle, String img_url) {
     return Container(
       padding: EdgeInsets.all(24),
-      height: 275,
+      height: 290,
       decoration: BoxDecoration(
         color: Colors.deepPurpleAccent,
         borderRadius: BorderRadius.circular(24),
@@ -55,8 +56,14 @@ class _HomePageState extends State<HomePage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(title ,style: TextStyle(fontSize: 25, color: Colors.white, fontWeight: FontWeight.bold)),
-          SizedBox(height: 20),
-          Text(subTitle ,style: TextStyle(fontSize: 15, color: Colors.white))
+          SizedBox(height: 15),
+          Text(subTitle ,style: TextStyle(fontSize: 15, color: Colors.white)),
+          SizedBox(height: 15),
+          TextButton(onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) => DetailsPage()));
+            },
+              child: Text("Read More>>", style: TextStyle(color: Colors.white)),
+              )
     ],
       ),
         );
