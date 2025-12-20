@@ -2,22 +2,11 @@
 
 A new Flutter project.
 
-## Getting Started
+ Name: __Thippharake Na Chiengmai__ Code: __662115019__
+ 
+🔴***Only for submit activities of 953464-Mobile App Dev***🔴
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-## Coder
-
-Thippharake Na Chiengmai Code:662115019
 
 ## Activities
 
@@ -32,4 +21,12 @@ Thippharake Na Chiengmai Code:662115019
 - Activity 5 FirstApp BottomNavigationBar
   
 <img width="503" height="841" alt="image" src="https://github.com/user-attachments/assets/db22d97e-f679-4029-ae6a-7147ee8970eb" />
+
+- Activity 6 List tile
+
+  <img width="440" height="844" alt="image" src="https://github.com/user-attachments/assets/08d38739-9469-430c-809e-bea0e1d04ceb" />
+
+- Activity 7.1 SecondApp link page
+  
+<img width="423" height="841" alt="image" src="https://github.com/user-attachments/assets/2cc2ed8f-2dca-4303-924e-f4ab589aac99" />
 
