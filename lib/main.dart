@@ -15,8 +15,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Calculate Change App.',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurpleAccent),
+      appBarTheme: const AppBarTheme(
+        backgroundColor: Colors.deepPurpleAccent,
+        foregroundColor: Colors.white,
       ),
+
+      useMaterial3: true,
+    ),
       home: const MyHomePage(title: 'Thippharake Shop'),
       debugShowCheckedModeBanner: false,
     );
