@@ -1,23 +1,33 @@
 import 'package:flutter/material.dart';
 
-class DetailsPage extends StatefulWidget {
-  const DetailsPage({super.key});
+class DetailsPage extends StatelessWidget {
+  final String title;
+  final String img_url;
+  final String description;
 
-  @override
-  State<DetailsPage> createState() => _DetailsPageState();
-}
+  const DetailsPage(
+      {super.key,
+        required this.title,
+        required this.img_url,
+        required this.description,
+  });
 
-class _DetailsPageState extends State<DetailsPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Details Page"),),
+        title: Text(title),
+        centerTitle: true,
+      ),
         body: ListView(
-          children: const [
-            Text("Explanation Details")
-        ],
-    )
+          children: [
+            Image.network(img_url, fit: BoxFit.cover),
+            Padding(padding: EdgeInsets.all(20.0),
+              child: Text(description, style: TextStyle(fontSize: 18)
+              ),
+            ),
+          ],
+        )
     );
   }
 }
