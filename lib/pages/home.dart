@@ -13,7 +13,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Computer & App Development Knowledge.",style: TextStyle(fontSize:15)),
+        title: Text("Computer & App Development Knowledge.",style: TextStyle(fontSize:18)),
       ),
         body: Padding(
             padding: const EdgeInsets.all(20),
@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
               )
                 );
             },
-              child: Text("Read More>>", style: TextStyle(color: Colors.white)),
+              child: Text("Read More>>", style: TextStyle(color: Colors.blueAccent)),
               )
     ],
       ),
