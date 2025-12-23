@@ -30,15 +30,15 @@ A new Flutter project.
   
   <img width="412" height="774" alt="image" src="https://github.com/user-attachments/assets/43ceb22a-0f0f-406a-b876-3efde4df5ba4" />
 
-  *Computer Details/
+  *Computer Details/*
 
   <img width="387" height="767" alt="image" src="https://github.com/user-attachments/assets/d43a40e7-1e9a-4c3b-aea2-d9a6af58527f" />
 
-  *Flutter Details/
+  *Flutter Details/*
 
   <img width="392" height="770" alt="image" src="https://github.com/user-attachments/assets/e612a751-00e7-49da-bb83-c0672161d170" />
 
-  *Dart Details/
+  *Dart Details/*
 
   <img width="388" height="778" alt="image" src="https://github.com/user-attachments/assets/d871ba20-b56b-4ff9-ac55-2aa5205f816f" />
 
