@@ -46,10 +46,6 @@ A new Flutter project.
 
   ### Activity 7.2 SecondApp local JSON
 
-  *- result*
-
-  <img width="400" height="759" alt="image" src="https://github.com/user-attachments/assets/ebe1e3ae-7057-4188-aa30-f546cb817c61" />
-
   *- data.json*
   
   <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/63467219-a500-4289-9842-9977ad2ef642" />
@@ -60,9 +56,26 @@ A new Flutter project.
 
   ### Activity 7.3 SecondApp
 
-  *- result*
+  *- code update*
 
+  <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/fef50710-b868-44f0-bd00-9cf5d6cb0840" />
+  <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5f7e6138-ac81-4fc4-8b54-07827dafaa92" />
+
+  *- Computer Details*
+
+  <img width="339" height="687" alt="image" src="https://github.com/user-attachments/assets/03389eec-c1cb-40f0-bc2d-c129e4c792df" />
+
+  *- Flutter Details*
+
+  <img width="362" height="690" alt="image" src="https://github.com/user-attachments/assets/dd616102-a130-4a43-8164-82e45c60b720" />
+
+  *- Dart Details*
+  
   <img width="383" height="714" alt="image" src="https://github.com/user-attachments/assets/73134718-1699-4ed3-b4c6-a6c9f46bfc29" />
+
+  
+
+  
 
 
 
