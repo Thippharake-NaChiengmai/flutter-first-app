@@ -24,14 +24,14 @@ var _v1, _v2, _v3, _v4;
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Detail of" + _v1),
+        title: Text("Detail of " + _v1),
         centerTitle: true,
       ),
         body: Padding(
             padding:  const EdgeInsets.all(8.0),
                 child: ListView(
             children: [
-              Text(_v1),
+              Text(_v1 ,style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold)),
               Text(_v2),
               Image.network(_v3),
               Text(_v4),
