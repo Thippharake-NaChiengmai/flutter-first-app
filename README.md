@@ -1,7 +1,5 @@
 # firstapp
 
-A new Flutter project.
-
  Name: __Thippharake Na Chiengmai__ Code: __662115019__
  
 🔴***Only for submit activities of 953464-Mobile App Dev***🔴
