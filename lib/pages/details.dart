@@ -1,32 +1,42 @@
 import 'package:flutter/material.dart';
 
-class DetailsPage extends StatelessWidget {
-  final String title;
-  final String img_url;
-  final String details;
+class DetailsPage extends StatefulWidget {
+  final v1, v2, v3, v4;
+  const DetailsPage(this.v1, this.v2, this.v3, this.v4);
 
-  const DetailsPage(
-      {super.key,
-        required this.title,
-        required this.img_url,
-        required this.details,
-  });
+  @override
+  State<DetailsPage> createState() => _DetailsPageState();
+}
+
+class _DetailsPageState extends State<DetailsPage> {
+var _v1, _v2, _v3, _v4;
+
+ @override
+ void initState() {
+   super.initState();
+   _v1 = widget.v1;
+   _v2 = widget.v2;
+   _v3 = widget.v3;
+   _v4 = widget.v4;
+ }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(title),
+        title: Text("Detail of" + _v1),
         centerTitle: true,
       ),
-        body: ListView(
-          children: [
-            Image.network(img_url, fit: BoxFit.cover),
-            Padding(padding: EdgeInsets.all(20.0),
-              child: Text(details, style: TextStyle(fontSize: 18)
-              ),
-            ),
+        body: Padding(
+            padding:  const EdgeInsets.all(8.0),
+                child: ListView(
+            children: [
+              Text(_v1),
+              Text(_v2),
+              Image.network(_v3),
+              Text(_v4),
           ],
+        ),
         )
     );
   }
