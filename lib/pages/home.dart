@@ -23,14 +23,14 @@ class _HomePageState extends State<HomePage> {
                 builder: (context, snapshot) {
                   var data = jsonDecode(snapshot.data.toString());
                   return ListView.builder(itemBuilder: (BuildContext context, int index ){
-                    return myBox(data[index]['title'], data[index]['subTitle'], data[index]['img_url'], data[index]['description']);
+                    return myBox(data[index]['title'], data[index]['subTitle'], data[index]['img_url'], data[index]['details']);
                   },
                     itemCount: data.length,);
                   },
                 future: DefaultAssetBundle.of(context).loadString("assets/json/data.json"),)
         ));
   }
-  Widget myBox(String title, String subTitle, String img_url, String description) {
+  Widget myBox(String title, String subTitle, String img_url, String details) {
     return Container(
       margin: EdgeInsets.only(top: 20),
       padding: EdgeInsets.all(24),
@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
             Navigator.push(context, MaterialPageRoute(builder: (context) => DetailsPage(
               title: title,
               img_url: img_url,
-              description: description,
+              details: details,
             )
               )
                 );
