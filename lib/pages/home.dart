@@ -31,6 +31,11 @@ class _HomePageState extends State<HomePage> {
         ));
   }
   Widget myBox(String title, String subTitle, String img_url, String details) {
+    var v1, v2, v3, v4;
+    v1 = title;
+    v2 = subTitle;
+    v3 = img_url;
+    v4 = details;
     return Container(
       margin: EdgeInsets.only(top: 20),
       padding: EdgeInsets.all(24),
@@ -53,11 +58,7 @@ class _HomePageState extends State<HomePage> {
           Text(subTitle ,style: TextStyle(fontSize: 15, color: Colors.white)),
           SizedBox(height: 15),
           TextButton(onPressed: () {
-            Navigator.push(context, MaterialPageRoute(builder: (context) => DetailsPage(
-              title: title,
-              img_url: img_url,
-              details: details,
-            )
+            Navigator.push(context, MaterialPageRoute(builder: (context) => DetailsPage(v1, v2, v3, v4)
               )
                 );
             },
