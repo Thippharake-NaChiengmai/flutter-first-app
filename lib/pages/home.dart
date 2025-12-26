@@ -32,6 +32,7 @@ class _HomePageState extends State<HomePage> {
   }
   Widget myBox(String title, String subTitle, String img_url, String description) {
     return Container(
+      margin: EdgeInsets.only(top: 20),
       padding: EdgeInsets.all(24),
       height: 290,
       decoration: BoxDecoration(
