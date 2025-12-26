@@ -58,6 +58,13 @@ A new Flutter project.
 
   <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e256d327-cffd-4316-a4a2-591957e22322" />
 
+  ### Activity 7.3 SecondApp
+
+  *- result*
+
+  <img width="383" height="714" alt="image" src="https://github.com/user-attachments/assets/73134718-1699-4ed3-b4c6-a6c9f46bfc29" />
+
+
 
 
 
